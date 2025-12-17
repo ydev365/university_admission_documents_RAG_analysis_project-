@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+.venv/
+
+# Environment
+.env
+.env.local
+*.local
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ChromaDB (임베딩 데이터)
+chroma_db/
+
+# 세특 데이터 (개인정보 포함)
+상명대_컴퓨터과학과_합격생들_세부능력및특기사항_data_취합/
+
+# Logs
+*.log
+
+# Cache
+.cache/
+.pytest_cache/
